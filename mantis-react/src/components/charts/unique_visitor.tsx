@@ -1,6 +1,5 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
-import HighChart from 'highcharts';
 
 export default function UniqueVisitor() {
   return (
