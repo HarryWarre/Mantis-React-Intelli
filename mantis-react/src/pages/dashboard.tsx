@@ -11,12 +11,12 @@ import {
 } from "@mui/material";
 import ListInfoCard from "../components/cards/list_info_cards";
 import UniqueVisitor from "../components/charts/unique_visitor";
-import { yellow } from "@mui/material/colors";
+import { red } from "@mui/material/colors";
 export default function Dashboard() {
   const theme = createTheme({
     palette: {
       warning: {
-        main: yellow[700],
+        main: red[700],
       },
     },
   });

@@ -2,15 +2,15 @@ import React from "react";
 import ICard from "./ICard";
 import { Box, Card, CardContent, Chip, Grid, Typography } from "@mui/material";
 import { TrendingDown, TrendingUp } from "@mui/icons-material";
-import { blue, yellow } from "@mui/material/colors";
+import { blue, red } from "@mui/material/colors";
 
 export default function InfoCard(props: ICard) {
   const CheckTrend = () =>
     props.TrendState === 0 ? <TrendingUp /> : <TrendingDown />;
   const TrendColor = props.TrendState === 0 ? "primary" : "warning";
-  const TypographyColor = props.TrendState === 0 ? "primary" : yellow["700"];
+  const TypographyColor = props.TrendState === 0 ? "primary" : red["700"];
 
-  const lightColor = props.TrendState === 0 ? blue[50] : yellow[50];
+  const lightColor = props.TrendState === 0 ? blue[50] : red[50];
   return (
     <Box component={"div"}>
       <Card color='white' sx={{}}>
