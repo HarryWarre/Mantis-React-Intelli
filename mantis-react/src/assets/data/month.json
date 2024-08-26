@@ -1,0 +1,64 @@
+{
+  "monthData": [
+    {
+      "month": "January",
+      "pageViews": 100,
+      "sessions": 80
+    },
+    {
+      "month": "February",
+      "pageViews": 120,
+      "sessions": 90
+    },
+    {
+      "month": "March",
+      "pageViews": 140,
+      "sessions": 110
+    },
+    {
+      "month": "April",
+      "pageViews": 130,
+      "sessions": 95
+    },
+    {
+      "month": "May",
+      "pageViews": 87,
+      "sessions": 60
+    },
+    {
+      "month": "June",
+      "pageViews": 95,
+      "sessions": 70
+    },
+    {
+      "month": "July",
+      "pageViews": 105,
+      "sessions": 85
+    },
+    {
+      "month": "August",
+      "pageViews": 115,
+      "sessions": 90
+    },
+    {
+      "month": "September",
+      "pageViews": 85,
+      "sessions": 65
+    },
+    {
+      "month": "October",
+      "pageViews": 125,
+      "sessions": 100
+    },
+    {
+      "month": "November",
+      "pageViews": 135,
+      "sessions": 105
+    },
+    {
+      "month": "December",
+      "pageViews": 145,
+      "sessions": 115
+    }
+  ]
+}

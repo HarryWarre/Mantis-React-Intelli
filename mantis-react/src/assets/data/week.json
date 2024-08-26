@@ -1,0 +1,11 @@
+{
+  "weekData": [
+    { "day": "Monday", "pageViews": 50, "sessions": 40 },
+    { "day": "Tuesday", "pageViews": 65, "sessions": 55 },
+    { "day": "Wednesday", "pageViews": 70, "sessions": 60 },
+    { "day": "Thursday", "pageViews": 80, "sessions": 65 },
+    { "day": "Friday", "pageViews": 55, "sessions": 50 },
+    { "day": "Saturday", "pageViews": 60, "sessions": 52 },
+    { "day": "Sunday", "pageViews": 75, "sessions": 68 }
+  ]
+}
