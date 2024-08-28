@@ -1,0 +1,10 @@
+:root {
+  --background-color: #fafafb;
+  /* --font-size: 13px; */
+  /* --font-family: Arial, sans-serif; Bạn có thể thay đổi font nếu muốn */
+}
+
+body {
+  background-color: var(--background-color);
+  font-size: 13px;
+}

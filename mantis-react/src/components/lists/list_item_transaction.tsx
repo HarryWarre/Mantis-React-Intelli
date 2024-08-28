@@ -1,4 +1,4 @@
-import { Gif } from "@mui/icons-material";
+import { Gif, Redeem, Textsms } from "@mui/icons-material";
 import {
   Avatar,
   Box,
@@ -15,8 +15,8 @@ export default function ListItemTransAction() {
     <>
       <ListItemButton sx={{ p: 2 }}>
         <ListItemAvatar>
-          <Avatar sx={{ bgcolor: green[500] }} sizes='small'>
-            <Gif />
+          <Avatar sx={{ bgcolor: "#E6F4FF" }} sizes='small'>
+            <Textsms color='primary' />
           </Avatar>
         </ListItemAvatar>
         <Box display={"flex"} justifyContent={"space-between"} width='100%'>

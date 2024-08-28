@@ -7,13 +7,36 @@ exporting(Highcharts);
 const optionsChart: Options = {
   chart: {
     type: "column",
-    height: "70%",
+    height: "94%",
+    events: {
+      load: function () {
+        const chart = this,
+          gap = 40;
+
+        chart.setTitle(
+          {},
+          {
+            y: chart.title.getBBox().height + gap,
+          }
+        );
+      },
+    },
   },
   title: {
-    text: "",
+    text: "This week statistics",
     align: "left",
-  },
 
+    style: { color: "#bababa", fontWeight: "lighter", fontSize: "15px" },
+  },
+  subtitle: {
+    text: "$7,650",
+    align: "left",
+    style: {
+      color: "#000000",
+      fontSize: "25px",
+      fontWeight: "bold",
+    },
+  },
   xAxis: {
     categories: ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
     crosshair: true,
@@ -54,10 +77,6 @@ const optionsChart: Options = {
 export default function ColChart() {
   return (
     <div>
-      <Typography variant='body1' color={"gray"}>
-        This Week Statitsics
-      </Typography>
-      <Typography variant='h4'>$7,650</Typography>
       <HighchartsReact highcharts={Highcharts} options={optionsChart} />
     </div>
   );

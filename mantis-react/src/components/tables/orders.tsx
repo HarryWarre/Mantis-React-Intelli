@@ -53,11 +53,12 @@ export default function RecentOrderTable() {
     // enableColumnFilters: false,
     // enablePagination: false,
     // enableSorting: false,
+    enableStickyHeader: true, // Sticky header
     paginationDisplayMode: "pages",
     //   mrtTheme
     muiTableBodyRowProps: { hover: false },
 
-    muiTableContainerProps: { sx: { minHeight: "320px", maxHeight: "320px" } },
+    muiTableContainerProps: { sx: { minHeight: "340px", maxHeight: "340px" } },
   });
 
   return (

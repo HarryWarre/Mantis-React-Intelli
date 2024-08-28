@@ -19,7 +19,7 @@ export default function TransacionHistory() {
         Transaction History
       </Typography>
 
-      <List>
+      <List disablePadding sx={{ backgroundColor: "#ffff" }}>
         <ListItemTransAction />
         <Divider />
         <ListItemTransAction />

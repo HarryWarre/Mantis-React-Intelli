@@ -12,8 +12,8 @@ export default function InfoCard(props: ICard) {
 
   const lightColor = props.TrendState === 0 ? blue[50] : red[50];
   return (
-    <Box component={"div"}>
-      <Card color='white' sx={{}}>
+    <Box component={"div"} sx={{ border: 1, borderColor: "#E6EBF1" }}>
+      <Card color='white' sx={{}} elevation={0}>
         <CardContent>
           <Typography color={"gray"} variant='subtitle1'>
             {props.title}

@@ -16,12 +16,12 @@ const optionsChart: Options = {
   title: {
     text: "Net Profit",
     align: "left",
-    style: { color: "#bababa", fontWeight: "lighter" },
+    style: { color: "#bababa", fontWeight: "lighter", fontSize: "15px" },
   },
   subtitle: {
     text: "$1560",
     align: "left",
-    style: { color: "#000000", fontSize: "40px", fontWeight: "bold" },
+    style: { color: "#000000", fontSize: "25px", fontWeight: "bold" },
   },
 
   xAxis: {
