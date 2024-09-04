@@ -1,4 +1,6 @@
-export const data = [
+import { OrderData } from "./orders";
+
+export const data: OrderData []= [
   {
     trackingNo: "12i992",
     productName: "Keyboard",
